@@ -1,0 +1,51 @@
+.login {
+    height: 92.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../static/background-image.png");
+    background-size: cover; 
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginForm>label {
+    margin: 10px 0;
+}
+
+.loginForm {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
